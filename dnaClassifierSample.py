@@ -11,7 +11,7 @@ import numpy as np
 import tensorflow as tf
 # read in our data
 print(tf.__version__)
-data = pd.read_csv('classifcation_and_seqs_aln.csv')
+data = pd.read_csv('gs://big-dna/classifcation_and_seqs_aln.csv')
 print(data.head())
 
 # Encode our data into numbers
